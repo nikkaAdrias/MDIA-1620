@@ -208,3 +208,28 @@ console.log(
 );
 
 //-------------------------------------------break--------------------------------------------//
+
+//------------------------- Growing our business (Lab #2, Week 6) -------------------------//
+
+// Create a variable that stores your total number of stalls.
+// Create a function that logs out how many stalls are available, given how many horses you have in your stable.
+
+// Create a function that logs out how much will an individual horse will owe if rent is
+// paid late. Invoke the function.
+
+// Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
+// the return value outside of the function.
+
+let totalStalls = 10;
+let availableStalls = totalStalls - horses.length;
+
+console.log(availableStalls);
+
+let totalDue = horseObj.monthlyRent * 1.2;
+
+console.log(
+    horseObj.name +
+        " owes $" +
+        totalDue +
+        " if rent is paid late (includes 20% fee)."
+);
