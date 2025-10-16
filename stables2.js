@@ -71,7 +71,7 @@ let horseAge = 222;
 let horseTraits = horseName + " is " + horseAge + " years old.";
 let isHorseOutside = true;
 let monthlyBoardingFee = 250;
-let lateFee = 250 + 0.2 * monthlyBoardingFee;
+let lateFee = monthlyBoardingFee + 0.2 * monthlyBoardingFee;
 
 let messageForVisitors = "Welcome to Sugar Cookie Stables!";
 let messageForLatePayment =
@@ -94,6 +94,11 @@ console.log(
         (horseAge + 1) +
         "."
 );
+
+console.log(
+    "It will cost $" + monthlyBoardingFee + " to board " + horseName + "."
+);
+console.log(messageForLatePayment);
 
 //------------------------- First day (Lab #2, Week 4) -------------------------//
 
