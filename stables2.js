@@ -120,39 +120,37 @@ console.log(messageForLatePayment);
 // is hungry or not. Use dot notation.
 
 let horseObj = {
-    name: "Meow",
-    nickname: "Mimi",
-    age: 222,
-    favouriteTreat: "chocolate covered pretzels",
-    monthlyRent: 250,
-    isHorseOutside: true,
-    favouriteDrink: "pink lemonade",
-    favouriteSinger: "Sabrina Carpenter",
-};
+        name: "Meow",
+        nickname: "Mimi",
+        age: 222,
+        favouriteTreat: "chocolate covered pretzels",
+        monthlyRent: 250,
+        isHorseOutside: true,
+        favouriteDrink: "pink lemonade",
+        favouriteSinger: "Sabrina Carpenter",
+    },
+    secondHorse = {
+        name: "Butter",
+        nickname: "Bubu",
+        age: 12,
+        favouriteTreat: "corn bread",
+        monthlyRent: 150,
+        isHorseOutside: false,
+        favouriteDrink: "butter beer",
+        favouriteSinger: "Morgan Wallen",
+    },
+    thirdHorse = {
+        name: "Calico",
+        nickname: "Cali",
+        age: 6,
+        favouriteTreat: "sardines",
+        monthlyRent: 100,
+        isHorseOutside: false,
+        favouriteDrink: "guava juice",
+        favouriteSinger: "Clairo",
+    };
 
-let secondHorse = {
-    name: "Butter",
-    nickname: "Bubu",
-    age: 12,
-    favouriteTreat: "corn bread",
-    monthlyRent: 150,
-    isHorseOutside: false,
-    favouriteDrink: "butter beer",
-    favouriteSinger: "Morgan Wallen",
-};
-
-let thirdHorse = {
-    name: "Calico",
-    nickname: "Cali",
-    age: 6,
-    favouriteTreat: "sardines",
-    monthlyRent: 100,
-    isHorseOutside: false,
-    favouriteDrink: "guava juice",
-    favouriteSinger: "Clairo",
-};
-
-let fourthHorse = {
+let newHorse = {
     name: "Rumble",
     nickname: "Rum",
     age: 23,
@@ -163,18 +161,21 @@ let fourthHorse = {
     favouriteSinger: "Benson Boone",
 };
 
-let horses = [
-    horseObj.name,
-    secondHorse.name,
-    thirdHorse.name,
-    fourthHorse.name,
-];
+let horseNames = [horseObj.name, secondHorse.name, thirdHorse.name]; //, newHorse.name
+
+let horses = [horseObj, secondHorse, thirdHorse];
+
+console.log(horses);
+
+horses.Rumble = newHorse;
+
+console.log(horses);
 
 let allHorseTraits = [
     horseObj.favouriteTreat,
     secondHorse.favouriteTreat,
     thirdHorse.favouriteTreat,
-    fourthHorse.favouriteTreat,
+    newHorse.favouriteTreat,
 ];
 
 console.log(
@@ -192,7 +193,13 @@ console.log("We now have 5 horses in the stable. They are " + horses + ".");
 
 horses.isHungry = true;
 
-//console.log("It's time to eat! It's " horses.isHungry + ", they are very hungry.")
+console.log(
+    "It's time to eat! It's ",
+    horses.isHungry,
+    +", they are very hungry."
+);
+
+console.log(horses);
 
 console.log(
     "It's time to eat! Pick what to feed them. Some things they like to share are: " +
