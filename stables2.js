@@ -80,11 +80,11 @@ if (horses.meow.isHungry) {
 
 //------------------------- Growing our business (Lab #2, Week 6) -------------------------//
 
-function availableStalls(totalStalls, horsesObj) {
-    const numberOfHorses = Object.keys(horsesObj).length;
-    const numberOfAvailableStalls = totalStalls - numberOfHorses;
+const NUMBER_OF_STALLS = 10;
+function availableStalls(totalNumberOfStalls, totalNumberOfHorses) {
+    let totalNumOfAvailStalls = totalNumberOfStalls - totalNumberOfHorses;
     console.log(
-        "There are " + numberOfAvailableStalls + " stalls still available!"
+        "There are " + totalNumOfAvailStalls + " stalls still available!"
     );
 }
 
@@ -103,9 +103,9 @@ function latePaymentNotice(individualHorse) {
 
     console.log(
         individualHorse.name +
-            " owes $" +
+            " has an account balance of " +
             amountDue.toFixed(2) +
-            " including a 20% late fee."
+            " including a 20% late fee. Please pay now."
     );
 }
 
