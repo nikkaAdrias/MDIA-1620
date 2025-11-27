@@ -1,266 +1,120 @@
-// Welcome!
-//
-//                                                  #    #
-//                                             %%% ##   ##
-//                                          %%%%% ###%🎀###
-//                                         %%%%% ### %%% #
-//                                       %%%%%% ### %%% ###
-//                                        %%%% ## %% #######
-//                                       %%%%% # %% #@#####
-//                                     %%%%%% # % #########
-//                                    %%%%% ##### #########
-//                          ###        %% ####### #########
-//                 %%% ############    ########### ########
-//              %%%% ############################### #######
-//            %%%%% ################################## ######
-//          %%%%%% #################################### #C###
-//         %%%🌸%% #####################################  ###
-//         %%%%% #######################################
-//        %%%%%% ############### BEANS ##################
-//     % %%%%%%% ############### BEANS ##################
-//      %%%%%%%%% ############## BEANS ##################
-//     %%%%%%%%%% ########################################
-//  %%% %%%%%%%%   ###### ################################
-//    %%%%%%%%      ###### #################### ##########
-// % %%%🌸%%%%        ####### ########### ###### ##########
-//  %%%%%%%%%         #######  ########### ###### ########
-// %%%%%%%%%%          ##### ###  ######### ####### ######
-//  %%%%%%%%%%          #### ##               ####### ####
-//  %🌸%%%%%%%%%           ## #                  ##### ###
-//   %%  %% % %%         # ##                      ## ###
-//     %   %    %        # ###                      # ###
-//                        # ###                     ## ###
-//                        # ###                     ## ###
-//                        # ####                   #### ##
-//                       ### ###                  ##### ###
-//                      ####  ###                 ####   ##
-//                     #####   ###                 ##    ##
-//                    #####    ####                      ###
-//                     ##        ###                     ###
-//                                ####                     ##
-//                                 ####                    ###
-//                                                         ####
-//                                                          ##
-//
-// This is a template for your labs and final project. You'll be setting up a stable and making
-// sure it runs smoothly.
-//
-// Please do not create a new file for each lab!
-// Feel free to keep the headings (e.g.: "Variables"), but please delete any boilerplate
-// comments. (Your own comments, where necessary, are acceptable.)
-//
-// NOTE: UNLESS SPECIFIED, VARIABLE NAMING IS UP TO YOU. THERE SHOULD BE NO HARD-CODED
-// NUMBERS OR STRINGS WHERE VARIBALES WOULD BE PREFERRED.
-
 //------------------------- Seting up shop (Lab #1, Week 3) -------------------------//
-
-// Declare variables with values for the following:
-// - the name of the horse at the stable
-// - the age of the horse
-// - whether the horse is inside or outside
-// - the cost to board the horse monthly
-// - the fee for a late payment (monthly rate + 20%)
-//
-// Create a variable and use it to store a message for visitors to the stable.
-// Create a variable and use it to store a message that monthly payment is late, and the amount owing.
-// Include the name of your horse in the message.
-
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-// ---------------------------------break assignment down here---------------------
-
-// let horseName = "Meow";
-// let horseNickname = "Mimi";
-// let horseAge = 222;
-// let horseTraits = horseName + " is " + horseAge + " years old.";
-// let isHorseOutside = true;
-// let monthlyBoardingFee = 250;
-// let lateFee = 250 + 0.2 * monthlyBoardingFee;
-
-// let messageForVisitors = "Welcome to Sugar Cookie Stables!";
-// let messageForLatePayment =
-//     "Late payments will result in a $" +
-//     lateFee +
-//     " fine. This amount is calculated from the initial monthly fee to board " +
-//     horseName +
-//     " at $" +
-//     monthlyBoardingFee +
-//     " and an additional 20%.";
-
-// console.log(messageForVisitors);
-// console.log("My horse is Called " + horseName + "!");
-// console.log(
-//     "Her nickname is '" +
-//         horseNickname +
-//         "'! " +
-//         horseTraits +
-//         " Next year, she will be " +
-//         (horseAge + 1) +
-//         "."
-// );
-
-// //------------------------- First day (Lab #2, Week 4) -------------------------//
-
-// // Using an object, add at least 3 horses to your stables.
-// //
-// // The horses should have the following properties:
-// // - name, nickname, favorite treat (string)
-// // - age, monthly rent (number)
-// // - location (boolean inside/outside)
-// // - two unique properties of your choice (use any primitive)
-
-// // Store the horses you've just created in a "horses" variable.
-// // Keep your old horse info from week one for now.
-
-// // Fancy! Another horse wants to be stabled! Create a variable that stores an object
-// // literal of your new horse, and add it to your "horses" variable.
-
-// // Initialize new property to your horses: a boolean that allows you to check if your horse
-// // is hungry or not. Use dot notation.
-
-// let horseObj = {
-//     name: "Meow",
-//     nickname: "Mimi",
-//     age: 222,
-//     favouriteTreat: "chocolate covered pretzels",
-//     monthlyRent: 250,
-//     isHorseOutside: true,
-//     favouriteDrink: "pink lemonade",
-//     favouriteSinger: "Sabrina Carpenter",
-// };
-
-// let secondHorse = {
-//     name: "Butter",
-//     nickname: "Bubu",
-//     age: 12,
-//     favouriteTreat: "corn bread",
-//     monthlyRent: 150,
-//     isHorseOutside: false,
-//     favouriteDrink: "butter beer",
-//     favouriteSinger: "Morgan Wallen",
-// };
-
-// let thirdHorse = {
-//     name: "Calico",
-//     nickname: "Cali",
-//     age: 6,
-//     favouriteTreat: "sardines",
-//     monthlyRent: 100,
-//     isHorseOutside: false,
-//     favouriteDrink: "guava juice",
-//     favouriteSinger: "Clairo",
-// };
-
-// let fourthHorse = {
-//     name: "Rumble",
-//     nickname: "Rum",
-//     age: 23,
-//     favouriteTreat: "carrots",
-//     monthlyRent: 300,
-//     isHorseOutside: true,
-//     favouriteDrink: "carrot juice",
-//     favouriteSinger: "Benson Boone",
-// };
-
-// let horses = [
-//     horseObj.name,
-//     secondHorse.name,
-//     thirdHorse.name,
-//     fourthHorse.name,
-// ];
-
-// let allHorseTraits = [
-//     horseObj.favouriteTreat,
-//     secondHorse.favouriteTreat,
-//     thirdHorse.favouriteTreat,
-//     fourthHorse.favouriteTreat,
-// ];
-
-// console.log(
-//     horseObj.nickname +
-//         " has some other horse friends. Thier names are " +
-//         horses +
-//         "!"
-// );
-
-// horses.push("Sticker");
-
-// console.log(horses);
-// console.log("Another horse wants to be stabled! His name is " + horses[4]);
-// console.log("We now have 5 horses in the stable. They are " + horses + ".");
-
-// horses.isHungry = true;
-
-// //console.log("It's time to eat! It's " horses.isHungry + ", they are very hungry.")
-
-// console.log(
-//     "It's time to eat! Pick what to feed them. Some things they like to share are: " +
-//         allHorseTraits +
-//         "."
-// );
-
-//-------------------------------------------break assignment^^^^^--------------------------------------------//
-
-//October 9 practice//
-
-// let
-
-// console.log("My horses are named ")
-
-function squareThisNumber(number) {
-    console.log(number * number);
-}
-
-squareThisNumber(3);
-squareThisNumber(11);
-
-function addTheseTwoThings(firstThingToAdd, secondThingToAdd) {
-    console.log(
-        "The sum of these numbers is " + (firstThingToAdd + secondThingToAdd)
-    );
-}
-
-addTheseTwoThings(3, 7);
-addTheseTwoThings(24, 37);
-
-let arrayOfNumbers = [3, 9, 17, 42];
-
-addTheseTwoThings(arrayOfNumbers[0], arrayOfNumbers[2]);
-addTheseTwoThings("one", "two");
 
 let horseName = "Meow";
 let horseAge = 222;
+let isHorseOutside = true;
+let monthlyBoardingFee = 250;
+let lateFee = 250 + 0.2 * monthlyBoardingFee;
 
-function printHorseAge(horseAge, horseName) {
-    console.log(horseName + " is " + horseAge + " years old.");
+let messageForVisitors = "Welcome to Sugar Cookie Stables!";
+let messageForLatePayment =
+    "Late payments will result in a $" +
+    lateFee +
+    " fine. This amount is calculated from the initial monthly fee to board " +
+    horseName +
+    " at $" +
+    monthlyBoardingFee +
+    " and an additional 20%.";
+
+//------------------------- First day (Lab #2, Week 4) -------------------------//
+
+let horses = {
+    meow: {
+        name: horseName,
+        nickname: "mimi",
+        age: horseAge,
+        favouriteTreat: "chocolate covered pretzels",
+        monthlyRent: monthlyBoardingFee,
+        isHorseOutside: true,
+        favouriteDrink: "pink lemonade",
+        favouriteSinger: "Sabrina Carpenter",
+    },
+
+    secondHorse: {
+        name: "butter",
+        nickname: "bubu",
+        age: 12,
+        favouriteTreat: "corn bread",
+        monthlyRent: 150,
+        isHorseOutside: false,
+        favouriteDrink: "butter beer",
+        favouriteSinger: "Morgan Wallen",
+    },
+
+    thirdHorse: {
+        name: "calico",
+        nickname: "cali",
+        age: 6,
+        favouriteTreat: "sardines",
+        monthlyRent: 100,
+        isHorseOutside: false,
+        favouriteDrink: "guava juice",
+        favouriteSinger: "Clairo",
+    },
+};
+
+let newHorse = {
+    name: "rumble",
+    nickname: "rum",
+    age: 23,
+    favouriteTreat: "carrots",
+    monthlyRent: 300,
+    isHorseOutside: true,
+    favouriteDrink: "carrot juice",
+    favouriteSinger: "Benson Boone",
+};
+
+horses.rumble = newHorse;
+
+// initialize new property using dot notation
+horses.meow.isHungry = true;
+horses.secondHorse.isHungry = true;
+horses.thirdHorse.isHungry = false;
+horses.rumble.isHungry = true;
+
+if (horses.meow.isHungry) {
+    console.log("Scurry in Mimi! Your chocolate covered pretzels are ready!");
+} else {
+    console.log("Be patient, lady! The youngins need to eat first.");
 }
 
-// printHorseAge(12, "mimita");
-// printHorseAge(horses.horseOne.age, horses.horseOne.name);
+//------------------------- Growing our business (Lab #2, Week 6) -------------------------//
 
-let changer = "hello world";
-changer = "BYEEEEEEEE world";
-
-const MONTHLY_RENT = 300;
-
-function payMe(rent = MONTHLY_RENT) {
-    console.log("you owe me " + rent + " dollars!");
+const NUMBER_OF_STALLS = 10;
+function availableStalls(totalNumberOfStalls, totalNumberOfHorses) {
+    let totalNumOfAvailStalls = totalNumberOfStalls - totalNumberOfHorses;
+    console.log(
+        "There are " + totalNumOfAvailStalls + " stalls still available!"
+    );
 }
 
-function payMe(rent = MONTHLY_RENT) {
-    let amount = "You owe me " + " dollars!";
-    return amount;
+// invoked:
+availableStalls(10, horses);
+
+function latePaymentNotice(individualHorse) {
+    const LATE_FEE_RATE = 0.2;
+
+    if (!individualHorse || typeof individualHorse.monthlyRent !== "number") {
+        console.log("Invalid horse data.");
+        return;
+    }
+
+    const amountDue = individualHorse.monthlyRent * (1 + LATE_FEE_RATE);
+
+    console.log(
+        individualHorse.name +
+            " has an account balance of " +
+            amountDue.toFixed(2) +
+            " including a 20% late fee. Please pay now."
+    );
 }
 
-// returns stop functions
+// invoked:
+latePaymentNotice(horses.rumble);
 
-// payMe(550);
-// payMe(300);
-// payMe();
+function returnNickname(horses) {
+    return horses.nickname;
+}
 
-// console.log(payMe(550));
+// log
+console.log(returnNickname(horses.secondHorse));
